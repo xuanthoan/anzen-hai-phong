@@ -1,0 +1,89 @@
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Zen Residences - Căn hộ cao cấp tại sông Lạch Tray</title>
+    <meta name="description" content="An Zen Residences Hải Phòng - Căn hộ cao cấp ven sông Lạch Tray, giá chỉ từ 33 triệu/m2, bàn giao nội thất hiện đại.">
+    <meta name="keywords" content="An Zen Residences, Chung cư Hải Phòng, Căn hộ cao cấp, sông Lạch Tray, Tập đoàn Nam Long">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="An Zen Residences - Căn hộ cao cấp ven sông Lạch Tray">
+    <meta property="og:description" content="Sống đẳng cấp tại vị trí vàng trung tâm Hải Phòng">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="An Zen Residences - Căn hộ cao cấp ven sông Lạch Tray">
+    <meta property="twitter:description" content="Sống đẳng cấp tại vị trí vàng trung tâm Hải Phòng.">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+        @layer theme {
+        :root {
+            --primary-color: #0f172a; /* Slate 900 */
+            --secondary-color: #ca8a04; /* Yellow 600 - Goldish */
+            --accent-color: #1e3a8a; /* Blue 900 */
+        }
+    }
+
+    @layer base {
+        body {
+            @apply text-slate-700 font-sans antialiased;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            @apply font-semibold text-slate-900;
+        }
+    }
+
+    @layer components {
+        .btn {
+            @apply px-6 py-3 rounded-md font-medium transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer;
+        }
+        .btn-primary {
+            @apply bg-[var(--secondary-color)] text-white hover:bg-yellow-700 shadow-lg hover:shadow-xl;
+        }
+        .btn-outline {
+            @apply border-2 border-[var(--primary-color)] text-[var(--primary-color)] hover:bg-[var(--primary-color)] hover:text-white;
+        }
+        .section-padding {
+            @apply py-16 md:py-24 px-4 md:px-8;
+        }
+        .container-custom {
+            @apply max-w-7xl mx-auto;
+        }
+        .section-title {
+            @apply text-3xl md:text-4xl font-bold text-center mb-4 uppercase tracking-wide text-[var(--primary-color)];
+        }
+        .section-subtitle {
+            @apply text-lg text-center text-slate-600 mb-12 max-w-3xl mx-auto;
+        }
+    }
+    </style>
+    <link rel="icon" href="https://app.trickle.so/storage/public/images/anonymous/8f7f0ed8-5a84-406f-b9d5-24f2507dfac8.jpeg">
+    <meta property="og:image" content="https://app.trickle.so/storage/public/images/anonymous/407d5310-56a1-4ce7-859f-f13bde872477.jpeg">
+    <meta name="twitter:title" content="An Zen Residences - Căn hộ cao cấp ven sông Lạch Tray">
+    <meta name="twitter:description" content="Sống đẳng cấp tại vị trí vàng trung tâm Hải Phòng">
+    <meta name="twitter:image" content="https://app.trickle.so/storage/public/images/anonymous/407d5310-56a1-4ce7-859f-f13bde872477.jpeg">
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/Overview.js"></script>
+    <script type="text/babel" src="components/Features.js"></script>
+    <script type="text/babel" src="components/Apartments.js"></script>
+    <script type="text/babel" src="components/Location.js"></script>
+    <script type="text/babel" src="components/Contact.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="app.js"></script>
+
+</body>
+
+</html>
